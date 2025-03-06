@@ -56,11 +56,15 @@ if ($result && mysqli_num_rows($result) > 0) {
 <body>
     <div class="container">
         <h1>Profile </h1>
+        <div>
         <p>Username: <?php echo $username ?> </p>
         <p>name:  <?php echo $name ?></p>
         <p>email:  <?php echo $email ?></p>
         <p>tagline:  <?php echo $tag ?></p>
-        
+        </div>
+        <div>
+            <a href="logout_page.php">Logout</a>
+        </div>
                 
     </div>
     
